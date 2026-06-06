@@ -33,7 +33,12 @@ log = logging.getLogger(__name__)
 async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     db.register_user(user.id, user.first_name, user.username)
-
+    
+    await update.message.reply_text(
+        "📖 *нажми на /start_game*\n\n",
+        
+        parse_mode="Markdown"
+    )
     await adm.log_to_chat(
         ctx.bot,
         f"👤 *{user.first_name}* (@{user.username or user.id}) написал /start"

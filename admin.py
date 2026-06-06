@@ -23,7 +23,7 @@ def admin_only(func):
     """Декоратор: только для админов."""
     async def wrapper(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         if not is_admin(update.effective_user.id):
-            await update.message.reply_text("⛔ У тебя нет доступа к этой команде.")
+            await update.message.reply_text("")
             return
         return await func(update, ctx)
     wrapper.__name__ = func.__name__
