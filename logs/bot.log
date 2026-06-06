@@ -1,0 +1,960 @@
+2026-06-06 10:22:31,149 [INFO] word_loader: Загружен a.txt: 64 слов
+2026-06-06 10:22:31,151 [INFO] word_loader: Загружен b.txt: 71 слов
+2026-06-06 10:22:31,152 [INFO] word_loader: Загружен c.txt: 73 слов
+2026-06-06 10:22:31,153 [INFO] word_loader: Загружен d.txt: 58 слов
+2026-06-06 10:22:31,153 [INFO] word_loader: Загружен e.txt: 49 слов
+2026-06-06 10:22:31,154 [INFO] word_loader: Загружен f.txt: 88 слов
+2026-06-06 10:22:31,154 [INFO] word_loader: Загружен g.txt: 67 слов
+2026-06-06 10:22:31,155 [INFO] word_loader: Загружен h.txt: 63 слов
+2026-06-06 10:22:31,156 [INFO] word_loader: Загружен i.txt: 36 слов
+2026-06-06 10:22:31,157 [INFO] word_loader: Загружен j.txt: 28 слов
+2026-06-06 10:22:31,159 [INFO] word_loader: Загружен k.txt: 20 слов
+2026-06-06 10:22:31,159 [INFO] word_loader: Загружен l.txt: 60 слов
+2026-06-06 10:22:31,160 [INFO] word_loader: Загружен m.txt: 72 слов
+2026-06-06 10:22:31,161 [INFO] word_loader: Загружен n.txt: 38 слов
+2026-06-06 10:22:31,162 [INFO] word_loader: Загружен o.txt: 28 слов
+2026-06-06 10:22:31,163 [INFO] word_loader: Загружен p.txt: 100 слов
+2026-06-06 10:22:31,163 [INFO] word_loader: Загружен q.txt: 15 слов
+2026-06-06 10:22:31,164 [INFO] word_loader: Загружен r.txt: 81 слов
+2026-06-06 10:22:31,165 [INFO] word_loader: Загружен s.txt: 155 слов
+2026-06-06 10:22:31,166 [INFO] word_loader: Загружен t.txt: 112 слов
+2026-06-06 10:22:31,168 [INFO] word_loader: Загружен u.txt: 41 слов
+2026-06-06 10:22:31,169 [INFO] word_loader: Загружен v.txt: 36 слов
+2026-06-06 10:22:31,170 [INFO] word_loader: Загружен w.txt: 71 слов
+2026-06-06 10:22:31,171 [INFO] word_loader: Загружен x.txt: 3 слов
+2026-06-06 10:22:31,171 [INFO] word_loader: Загружен y.txt: 9 слов
+2026-06-06 10:22:31,172 [INFO] word_loader: Загружен z.txt: 9 слов
+2026-06-06 10:22:31,173 [INFO] word_loader: Итого загружено слов: 1447
+2026-06-06 10:22:31,173 [INFO] __main__: Слов загружено: 1447
+2026-06-06 10:22:31,173 [INFO] database: БД не найдена, создаём новую
+2026-06-06 10:22:31,174 [INFO] __main__: Пользователей в БД: 0
+2026-06-06 10:22:32,228 [INFO] __main__: Бот запущен!
+2026-06-06 10:22:33,859 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getMe "HTTP/1.1 200 OK"
+2026-06-06 10:22:34,213 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/deleteWebhook "HTTP/1.1 200 OK"
+2026-06-06 10:22:34,215 [INFO] telegram.ext.Application: Application started
+2026-06-06 10:22:45,033 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:22:55,680 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:22:57,627 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:22:59,513 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:22:59,926 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:22:59,927 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 36
+2026-06-06 10:23:07,934 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:09,411 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:09,412 [INFO] database: Новый пользователь: Hadiyatullo (id=5250762029)
+2026-06-06 10:23:11,870 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:11,871 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 32
+2026-06-06 10:23:12,808 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:23:13,218 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:13,218 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 36
+2026-06-06 10:23:18,904 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:21,297 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:21,298 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 32
+2026-06-06 10:23:22,237 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:23:23,150 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:23,150 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 36
+2026-06-06 10:23:27,360 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:28,007 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:23:28,542 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:23:33,497 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:34,109 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:34,109 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 32
+2026-06-06 10:23:34,308 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:23:34,693 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:34,694 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 36
+2026-06-06 10:23:43,801 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:45,448 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:46,910 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:23:47,262 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:23:55,981 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:56,533 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:23:59,956 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:23:59,957 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 32
+2026-06-06 10:24:00,492 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:24:04,929 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:24:05,901 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:24:05,902 [INFO] game: Таймаут у Hadiyatullo (id=5250762029), score=27
+2026-06-06 10:24:08,068 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:09,520 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:24:09,521 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 32
+2026-06-06 10:24:11,688 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:24:12,148 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:24:12,149 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 110
+2026-06-06 10:24:19,881 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:30,122 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:32,100 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:33,916 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:24:38,669 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:39,698 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:24:40,107 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:24:40,108 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 110, in handle_callback
+    if await adm.handle_admin_callback(update, ctx):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\admin.py", line 109, in handle_admin_callback
+    await query.message.reply_text("\n".join(lines), parse_mode="Markdown")
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 69
+2026-06-06 10:24:46,410 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:49,018 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:24:49,499 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:24:49,499 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 110, in handle_callback
+    if await adm.handle_admin_callback(update, ctx):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\admin.py", line 109, in handle_admin_callback
+    await query.message.reply_text("\n".join(lines), parse_mode="Markdown")
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 69
+2026-06-06 10:24:51,430 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:52,047 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:24:52,585 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:24:55,730 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:24:56,107 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:24:56,830 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:25:00,388 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:25:00,712 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-06-06 10:25:02,339 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:25:10,876 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:25:21,173 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:25:31,943 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:25:42,260 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:25:52,355 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:02,565 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:12,665 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:16,600 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:17,383 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:26:26,703 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:37,695 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:51,232 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:26:59,337 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:00,143 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:27:09,617 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:19,727 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:29,830 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:37,440 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:37,441 [INFO] database: Новый пользователь: GOAL (id=7662652963)
+2026-06-06 10:27:38,283 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:27:38,394 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:27:38,395 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:27:45,461 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:46,143 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:27:46,612 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:27:46,613 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:27:55,570 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:58,139 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:27:59,147 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:00,160 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:08,410 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:09,078 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:10,020 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:10,420 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:10,702 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:10,862 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/editMessageText "HTTP/1.1 200 OK"
+2026-06-06 10:28:10,863 [INFO] admin: Рассылка: 2 доставлено, 0 ошибок
+2026-06-06 10:28:19,227 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:30,385 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:31,181 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:31,182 [INFO] game: Таймаут у GOAL (id=7662652963), score=0
+2026-06-06 10:28:40,681 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:46,868 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:46,877 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-96' coro=<_warning_coroutine() done, defined at c:\Users\User\Desktop\words\game.py:79> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "c:\Users\User\Desktop\words\game.py", line 87, in _warning_coroutine
+    f"*«{st['last_word'][-1].upper()}»*",
+         ~~~~~~~~~~~~~~~^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-06-06 10:28:47,681 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:48,350 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:53,372 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:28:54,058 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:54,259 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:28:54,366 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:03,458 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:29:05,897 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:29:06,406 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:06,640 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:10,080 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:29:10,640 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:11,035 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:20,278 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:29:20,341 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:20,913 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:21,062 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:24,565 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:29:24,566 [INFO] game: Таймаут у GOAL (id=7662652963), score=10
+2026-06-06 10:29:30,515 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:29:40,615 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:29:50,715 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:00,815 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:10,048 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:10,731 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:30:11,030 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:30:11,031 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:30:13,516 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:13,685 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:30:13,863 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:30:13,864 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:30:13,984 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:14,145 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:14,282 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:30:14,404 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:30:14,405 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:30:14,540 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:30:14,642 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:30:14,643 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:30:14,773 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:14,894 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:30:14,965 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:15,027 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:30:15,028 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:30:18,324 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 10:30:18,984 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:30:18,985 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 378
+2026-06-06 10:30:25,067 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:35,174 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:45,427 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:30:55,532 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:31:05,643 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:31:16,051 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:31:26,221 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:31:36,319 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:31:46,420 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:31:56,886 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:32:06,980 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:32:11,021 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:32:11,775 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:32:11,776 [WARNING] admin: Не удалось отправить лог в чат: Can't parse entities: can't find end of the entity starting at byte offset 32
+2026-06-06 10:32:12,249 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/sendMessage "HTTP/1.1 400 Bad Request"
+2026-06-06 10:32:12,250 [ERROR] telegram.ext.Application: No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\words\bot.py", line 47, in cmd_start
+    await update.message.reply_text(
+    ...<8 lines>...
+    )
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_message.py", line 2106, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 3118, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 1123, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<21 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 630, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 820, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\ext\_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\User\AppData\Roaming\Python\Python313\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 385
+2026-06-06 10:32:21,287 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:32:31,688 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:32:42,925 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:32:53,551 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:33:03,812 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
+2026-06-06 10:33:13,910 [INFO] httpx: HTTP Request: POST https://api.telegram.org/bot8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic/getUpdates "HTTP/1.1 200 OK"
