@@ -4,9 +4,9 @@
       "name": "Hadiyatullo",
       "username": "hadiyatullo_Ibrohimov",
       "first_seen": "2026-06-06T10:23:09.412513",
-      "last_seen": "2026-06-06T14:26:17.496634",
+      "last_seen": "2026-06-16T00:03:14.704645",
       "total_score": 167,
-      "games": 2,
+      "games": 3,
       "best_streak": 9
     },
     "7662652963": {
@@ -17,6 +17,15 @@
       "total_score": 40,
       "games": 8,
       "best_streak": 3
+    },
+    "5191453810": {
+      "name": "Насрулло",
+      "username": "Ortukov",
+      "first_seen": "2026-06-15T23:56:39.529102",
+      "last_seen": "2026-06-16T00:04:23.468193",
+      "total_score": 170,
+      "games": 5,
+      "best_streak": 8
     }
   },
   "leaderboard": {}
