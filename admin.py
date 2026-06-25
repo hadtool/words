@@ -9,6 +9,7 @@ from telegram.ext import ContextTypes
 from config import ADMIN_IDS, LOG_CHAT_ID
 import database as db
 import word_loader
+import html
 
 log = logging.getLogger(__name__)
 
@@ -37,7 +38,12 @@ async def log_to_chat(bot, text: str):
     if not LOG_CHAT_ID:
         return
     try:
-        await bot.send_message(LOG_CHAT_ID, text, parse_mode="Markdown")
+        
+        await bot.send_message(
+        chat_id=LOG_CHAT_ID,
+        text=html.escape(text),
+        parse_mode="HTML"
+)
     except Exception as e:
         log.warning(f"Не удалось отправить лог в чат: {e}")
 
