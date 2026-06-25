@@ -3,7 +3,9 @@
 # ╚══════════════════════════════════════════════════╝
 
 # ── ТОКЕН БОТА (получить у @BotFather) ──────────────
-BOT_TOKEN = "8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic"
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 
 # ── АДМИНЫ (Telegram user_id — можно несколько) ─────
 # Узнать свой ID: написать @userinfobot
