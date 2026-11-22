@@ -1,0 +1,10 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Bot logs contain the bot token and user messages — never commit them
+logs/
+*.log
+
+# Local secrets
+.env
