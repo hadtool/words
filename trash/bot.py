@@ -1,6 +1,7 @@
 import logging
 import random
 import asyncio
+import os
 from datetime import datetime, timedelta
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
@@ -9,7 +10,7 @@ from telegram.ext import (
 )
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
-BOT_TOKEN = "8466542476:AAGxcVeK_ZVp9bg-paEh7xXVupqBRi4V8Ic"
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # set the BOT_TOKEN environment variable
 TURN_TIMEOUT = 30          # seconds per turn
 HINT_PENALTY  = 3          # points deducted per hint
 WIN_STREAK    = 10         # words in a row to win a round
